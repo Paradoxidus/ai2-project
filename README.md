@@ -70,8 +70,13 @@ Training outputs (metrics/plots/config + weights) are in:
 
 
 
- For additional infomation including as graphs, model architecture, and among others, you may refer to the group's IEEE published conference paper: [10.1109/ICISS67859.2026.11453982.](https://doi.org/10.1109/ICISS67859.2026.11453982). It is also provided in the repository along with the deployment, code, etc.
+ For additional information including as graphs, model architecture, and among others, you may refer to the group's IEEE published conference paper: [10.1109/ICISS67859.2026.11453982.](https://doi.org/10.1109/ICISS67859.2026.11453982). It is also provided in the repository along with the deployment, code, etc.
 
  Core architecture/template of YOLOv12 for transfer learning was created and trained by [Dr. Lysa V. Comia.](https://ieeexplore.ieee.org/author/237244627179273).
 
- 
+ ## TL;DR
+- **Task:** Brain tumor detection in MRI (multi-class: glioma/meningioma/pituitary)
+- **Model:** YOLO-based (Ultralytics)
+- **Overall:** AP@0.5 = 0.846, AP@0.5:0.95 ≈ 0.54
+- **Demo:** Streamlit app included
+- **Paper:** DOI: 10.1109/ICISS67859.2026.11453982
