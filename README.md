@@ -1,7 +1,7 @@
 # Welcome to our AI 2 Computer Vision Project!
 
 ## 💡 About
- 📌 This is a deep learning project consisting of three members whose primary focus is to classify benign brain tumors using a multi-classification computer vision (CV) approach through isntance segmentation. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as brain tumor instance segmentation. Second, it is also to benchmark newer models such as the YOLOv12, a powerful computer vision model that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
+ 📌 This is a deep learning project consisting of three members whose primary focus is to classify benign brain tumors using a multi-classification computer vision (CV) approach through instance segmentation. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as brain tumor instance segmentation. Second, it is also to benchmark newer models such as the YOLOv12, a powerful computer vision model that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
 
  ## 👥 Contributors
 
@@ -73,9 +73,30 @@ Training outputs (metrics/plots/config + weights) are in:
  For additional information including as graphs, model architecture, and among others, you may refer to the group's IEEE published conference paper: [10.1109/ICISS67859.2026.11453982.](https://doi.org/10.1109/ICISS67859.2026.11453982). It is also provided in the repository along with the deployment, code, etc.
 
  Core architecture/template of YOLOv12 for transfer learning was created and trained by [Dr. Lysa V. Comia.](https://ieeexplore.ieee.org/author/237244627179273).
+ 
+## Dataset & Licensing
+
+This project uses the Kaggle dataset **“Brain Tumor Dataset: Segmentation & Classification”** (Indrakumar K, Ravikumar M).
+- Kaggle page / DOI: https://doi.org/10.34740/kaggle/dsv/11957028
+- License on Kaggle: **Apache License 2.0**
+
+The Kaggle dataset is a curated/enhanced compilation derived from upstream sources (including the Kaggle “Brain Tumor MRI Dataset” by masoudnickparvar and the SciDB dataset referenced on the dataset page). Please review and comply with the **licenses/terms of each upstream source** as well.
+
+**Note:** We do not claim ownership of the dataset. Credit belongs to the dataset authors and original sources.
+
+### Citation (Dataset)
+@misc{indrakumar_k_ravikumar_m_2025,
+  title={Brain Tumor Dataset: Segmentation & Classification},
+  url={https://www.kaggle.com/dsv/11957028},
+  DOI={10.34740/KAGGLE/DSV/11957028},
+  publisher={Kaggle},
+  author={Indrakumar K and Ravikumar M},
+  year={2025}
+}
+
 
  ## TL;DR
-- **Task:** Brain tumor detection in MRI (multi-class: glioma/meningioma/pituitary)
+- **Task:** Brain tumor instance segmentation in MRI (multi-class: glioma/meningioma/pituitary)
 - **Model:** YOLO-based (Ultralytics)
 - **Overall:** AP@0.5 = 0.846, AP@0.5:0.95 ≈ 0.54
 - **Demo:** Streamlit app included
