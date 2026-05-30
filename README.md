@@ -74,7 +74,7 @@ Training outputs (metrics/plots/config + weights) are in:
 
  Core architecture/template of YOLOv12 for transfer learning was created and trained by [Dr. Lysa V. Comia.](https://ieeexplore.ieee.org/author/237244627179273).
  
-## Dataset & Licensing
+## ©️ Dataset & Licensing
 
 This project uses the Kaggle dataset **“Brain Tumor Dataset: Segmentation & Classification”** (Indrakumar K, Ravikumar M).
 - Kaggle page / DOI: https://doi.org/10.34740/kaggle/dsv/11957028
