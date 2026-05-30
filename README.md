@@ -63,8 +63,6 @@ streamlit run main.py
 **Model weights** are included here:
 `YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)/model/best.pt`
 
-## 📦 Dependencies
-
 ### Deployment (Streamlit app)
 Use: `YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)/requirements.txt`
 
