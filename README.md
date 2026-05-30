@@ -1,7 +1,7 @@
 # Welcome to our AI 2 Computer Vision Project!
 
 ## 💡 About
- 📌 This is a deep learning project consisting of three members whose primary focus is to detect benign brain tumors using a multi-classification computer vision (CV) approach. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as tumor detection. Second, it is also to benchmark newer models such as the YOLOv12, a powerful computer vision model that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
+ 📌 This is a deep learning project consisting of three members whose primary focus is to classify benign brain tumors using a multi-classification computer vision (CV) approach through isntance segmentation. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as brain tumor instance segmentation. Second, it is also to benchmark newer models such as the YOLOv12, a powerful computer vision model that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
 
  ## 👥 Contributors
 
@@ -13,7 +13,7 @@
 
 ## 📦 Dependencies
 
-This project requires the following libraries and tools to run YOLOv12 for brain tumor detection:
+This project requires the following libraries and tools to run YOLOv12 for brain tumor instance segmentation:
 
 - **Core Frameworks**
   - torch==2.2.2  
@@ -40,7 +40,7 @@ This project requires the following libraries and tools to run YOLOv12 for brain
 
 ## 📊 Results and Summary
 
-| Tumor Class | AP @ IoU=0.5 | AP @ IoU=0.5–0.95 | Precision | Recall | F1 (Peak) |
+| Tumor Class | Mask AP @ IoU=0.5 | Mask AP @ IoU=0.5–0.95 | Precision | Recall | F1 (Peak) |
 |-------------|--------------|-------------------|-----------|--------|-----------|
 | Glioma      | 0.754        | ~0.45             | ~0.71     | ~0.70  | 0.71 @ 0.30–0.35 |
 | Meningioma  | 0.982        | ~0.55             | >0.95     | >0.90  | >0.90 (stable across 0.05–0.70) |
