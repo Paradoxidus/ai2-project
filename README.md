@@ -47,6 +47,31 @@ This project requires the following libraries and tools to run YOLOv12 for brain
 | Pituitary   | 0.802        | ~0.50             | ~0.80     | ~0.80  | 0.72 @ 0.30–0.35 |
 | **Overall** | 0.846        | ~0.54             | >0.80     | ~0.75  | 0.80 @ 0.304 |
 
+## 🧑‍💻 How to execute this in Streamlit
+```
+## 🚀 Run the Streamlit demo (recommended)
+
+```bash
+cd "YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)"
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run main.py
+```
+
+**Model weights** are included here:
+`YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)/model/best.pt`
+
+## 📦 Dependencies
+
+### Deployment (Streamlit app)
+Use: `YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)/requirements.txt`
+
+### Training artifacts
+Training outputs (metrics/plots/config + weights) are in:
+`Train Log/train7/`
+```
 
 
  For additional infomation including as graphs, model architecture, and among others, you may refer to the group's IEEE published conference paper: [10.1109/ICISS67859.2026.11453982.](https://doi.org/10.1109/ICISS67859.2026.11453982). It is also provided in the repository along with the deployment, code, etc.
