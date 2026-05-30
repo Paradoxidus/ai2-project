@@ -29,7 +29,19 @@ This project requires the following libraries and tools to run YOLOv12 for brain
 - **Utilities**
   - PyYAML==6.0.1  
   - scipy==1.13.0  
-  - numpy==1.26.4  
+  - numpy==1.26.4
+  - streamlit
+  - pandas
+  - altair
+  - plotly
+  - pillow
+ 
+  - **Deployment Utilities**
+  - streamlit
+  - pandas
+  - altair
+  - plotly
+  - pillow
 
 ## 📊 Results and Summary
 
