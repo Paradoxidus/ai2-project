@@ -47,9 +47,7 @@ This project requires the following libraries and tools to run YOLOv12 for brain
 | Pituitary   | 0.802        | ~0.50             | ~0.80     | ~0.80  | 0.72 @ 0.30–0.35 |
 | **Overall** | 0.846        | ~0.54             | >0.80     | ~0.75  | 0.80 @ 0.304 |
 
-## 🧑‍💻 How to execute this in Streamlit
-```
-## 🚀 Run the Streamlit demo (recommended)
+## 🧑‍💻 Run the Streamlit demo (recommended)
 
 ```bash
 cd "YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)"
