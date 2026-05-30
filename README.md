@@ -71,7 +71,7 @@ Use: `YOLOv12 Brain Tumor Detection Deployment/AI2-Machine-Project(Streamlit)/re
 ### Training artifacts
 Training outputs (metrics/plots/config + weights) are in:
 `Train Log/train7/`
-```
+
 
 
  For additional infomation including as graphs, model architecture, and among others, you may refer to the group's IEEE published conference paper: [10.1109/ICISS67859.2026.11453982.](https://doi.org/10.1109/ICISS67859.2026.11453982). It is also provided in the repository along with the deployment, code, etc.
