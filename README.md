@@ -2,13 +2,13 @@
 
  ## TL;DR
 - **Task:** Brain tumor instance segmentation in MRI (multi-class: glioma/meningioma/pituitary)
-- **Model:** YOLO-based (Ultralytics)
+- **Model:** YOLOv12-based (Ultralytics)
 - **Overall:** AP@0.5 = 0.846, AP@0.5:0.95 ≈ 0.54
 - **Demo:** Streamlit app included
 - **Paper:** DOI: 10.1109/ICISS67859.2026.11453982
 
 ## 💡 About
- 📌 This is a deep learning project consisting of three members whose primary focus is to classify benign brain tumors using a multi-classification computer vision (CV) approach through instance segmentation. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as brain tumor instance segmentation. Second, it is also to benchmark newer models such as the YOLOv12, a powerful computer vision model that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
+ 📌 This is a deep learning project consisting of three members whose primary focus is to classify benign brain tumors using a multi-classification computer vision (CV) approach through instance segmentation. The scope focuses on three classes: meningioma, glioma, and pituitary tumors from the Kaggle dataset: https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification/data. First, the goal of this project is to contribute artificial intelligence tasks in medical fields such as brain tumor instance segmentation. Second, it is also to benchmark these using computer vision models, such as the YOLOv12, a powerful computer vision model, which the project uses, that uses attention-based modules such as FlashAttention and area attention against complex visual environments. 
 
  ## 👥 Contributors
 
